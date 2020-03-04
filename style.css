@@ -1,0 +1,210 @@
+/*
+Theme Name:     Divi Child
+Theme URI:      https://www.elegantthemes.com/gallery/divi/
+Description:    Divi Child Theme
+Author:         Elegant Themes
+Author URI:     https://www.elegantthemes.com
+Template:       Divi
+Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+/* Form Information page step-1-checkout BEGIN*********************/
+.powerS,.dimensions{
+    list-style: none !important;
+    padding-left: 0 !important; 
+}
+
+
+.powerS li{
+    display: inline-block !important;
+    padding-right: 3px !important;
+    
+}
+/*#secondElementPS{
+  margin-left: -8em !important;  
+}*/
+.dimensions li{
+    padding-left: 15px !important;
+}
+.labelCF7{
+    font-size: 1.2em !important;
+    font-family: "Poppins" !important;
+    font-weight: bold !important;
+    color: #24b4cc !important;
+}
+.inputText,.inputTextArea,.inputDate,.wpcf7-form-control-wrap.menu-629 select,.wpcf7-number
+{
+    background-color: #fff !important;
+    color: #333 !important;
+    font-family: "Poppins" !important;
+    border: 2px solid #24b4cc !important;
+    margin-top: 5px !important;
+}
+.inputText{width: 70% !important;
+           padding: 10px !important;
+           }
+
+.inputDate,.wpcf7-form-control-wrap.menu-629 select,.wpcf7-number{
+    padding: 10px !important;
+}
+
+#fileStyle{
+    font-size: 0.7em !important;
+    color: #ef3f49 !important;
+}
+
+@media only screen and (min-width: 600px) {
+
+#leftColumn {
+    width: 47% !important;
+    float: left !important;
+    margin-right:6.5% !important;
+}
+
+#rightColumn {
+    width: 37% !important;
+    float: right !important;
+}
+
+.clearFixColumns:after {
+    content:"\0020" !important;
+    display:block !important;
+    height:0 !important;
+    clear:both !important;
+    visibility:hidden !important;
+    overflow:hidden !important;
+    margin-bottom:10px !important;
+}
+
+.clearFixColumns {
+    display:block !important;
+    
+}
+#notesandsend {text-align: center !important;}
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-right: 5em !important;
+    padding-left: 5em !important;
+    font-size: 20px !important;
+    font-family: "Poppins" !important;
+    font-weight: bold !important;
+    background-color: #ef3f49 !important;
+    color: #fff !important;
+    border: 2px solid #333 !important;
+    border-radius: 4px !important;
+    margin-top: 4em !important;
+    cursor:pointer !important;
+    border: none !important;
+}
+input.wpcf7-form-control.wpcf7-submit:hover{
+    background-color: #24b4cc !important;
+}
+/* END FORM OF step-1-checkout Page ******************************************************/
+
+
+/* attributes color in the product page*/
+.woocommerce-product-attributes-item__value p a{
+    color: #ef3f49 !important;
+}
+/*Hide the text (10000 in stock)*/
+p.stock.in-stock,.entry-title.main_title{
+    display: none !important;
+}
+
+/* MENU*/
+#top-menu > li > a:hover{
+    color: #24b4cc !important;
+}
+.et-cart-info,#et_search_icon{
+    color: #24b4cc !important;
+}
+.et-cart-info:hover,#et_search_icon:hover{
+    color: #ef3f49 !important;
+}
+
+/*Contact us button in About us page*/
+#contactAboutUs:hover{
+    background-color: #fff !important;
+}
+
+/*readyToGetStarted text in About us Page*/
+#readyToGetStarted{
+    color: #ef3f49 !important;
+    font-family: "Poppins" !important;
+}
+
+/*my account page(1st Section)*/
+.myaccountfirstrow .et_pb_button_module_wrapper{
+    display: inline-block !important;
+    margin: 0 8px !important;
+}
+
+#linkMyOrders:hover{
+    color: #333 !important;
+}
+#linkStartToShop:hover{
+    color: #24b4cc !important;
+}
+#linkMyProfile:hover{
+    color: #ef3f49 !important;
+}
+
+/*My account page(2nd Section)*/
+.woocommerce-MyAccount-content p{
+    font-size: 1em !important;
+    font-family: "Poppins" !important;
+}
+.woocommerce-MyAccount-navigation ul li{
+    font-size: 1em !important;
+    font-family: "Poppins" !important;
+    color: #ef3f49 !important;
+}
+input.woocommerce-Input.woocommerce-Input--text.input-text span em{
+    font-size: 0.8em !important;
+    color: #ef3f49 !important;
+}
+
+
+/*Shop Page*/
+.woocommerce-loop-product__title{
+    font-size: 1.2em !important;
+    font-family: "Poppins" !important;
+    color: #24b4cc !important;
+}
+.woocommerce-Price-amount.amount{
+    font-size: 1em !important;
+    font-family: "Poppins" !important;
+    color: #ef3f49 !important;
+    font-weight: bold !important;
+}
+.woocommerce-products-header, .woocommerce-breadcrumb{
+    display: none !important;
+}
+
+
+
+/*Fix the compatibility between safari browser and native date picker cf7*/
+div#ui-datepicker-div {
+    z-index:1000!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
